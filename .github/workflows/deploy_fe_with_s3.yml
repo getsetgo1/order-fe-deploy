@@ -39,5 +39,9 @@ jobs:
       - name: clear s3 bucket
         run: aws s3 rm s3://www.woojin.today/ --recursive
       
+      - name: deploy to s3
+        run: aws s3 cp ./dist s3://www.woojin.today/ --recursive
 
+      - name: invalidate cloudfront caches
+        run: aws cloudfront create-invalidation --distribution-id E2OF46PGZB5J4M --paths "/*"
 
