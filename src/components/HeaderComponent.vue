@@ -11,7 +11,7 @@
           </div>
         </v-col>
         <v-col class="text-center">
-          <v-btn :to="{ path: '/' }">java shop</v-btn>
+          <v-btn :to="{ path: '/' }">java shop22222</v-btn>
         </v-col>
 
         <!-- d-flex justify-end : 오른쪽 정렬 -->
