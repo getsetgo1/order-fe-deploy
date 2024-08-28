@@ -4,7 +4,7 @@ on:
   push:
     branches:
       # 원래는 main이었고 나중에 actions 적용할 거 다 하고 dev로 변경
-      - dev
+      - main
 jobs:
 # 워크플로우는 하나 이상의 작업(job)으로 구성. 여기서는 하나의 작업만을 정의  build-and-deploy 이건 우리가 정의한 job 이름
   build-and-deploy: 
