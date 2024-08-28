@@ -45,6 +45,6 @@ jobs:
 
 
 
-      - name: invalidate cloudfront caches
-        run: aws cloudfront create-invalidation --distribution-id E2OF46PGZB5J4M --paths "/*"
+      # - name: invalidate cloudfront caches
+      #   run: aws cloudfront create-invalidation --distribution-id E2OF46PGZB5J4M --paths "/*"
 
